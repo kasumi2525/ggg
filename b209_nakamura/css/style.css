@@ -1,0 +1,146 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, h4, h5, h6, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    text-align: center;
+}
+/* Header styles */
+.hed {
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.hed img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+/* Dropdown menu styles */
+.ddmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ddmenu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ddmenu li:last-child {
+    margin-right: 0;
+}
+
+.ddmenu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form,.sindan,.setumei,.osusume,.youtuber {
+    max-width: 800px; /* 幅を広げる */
+    margin: 20px auto; /* 上下のマージンを保持して中央に配置 */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* 質問を中央に配置 */
+}
+
+form h3 {
+    margin-bottom: 20px;
+    text-align: center; /* 質問テキストを左寄せに */
+}
+
+button {
+    display: inline-block;
+    width: calc(33.33% - 10px); /* ボタン幅を調整 */
+    padding: 10px 20px;
+    margin: 0 5px 10px 5px;
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #556B2F;
+}
+.setumei ,.hutari{
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.setumei h1 ,.channel h1{
+    font-size: 28px;
+
+    margin-bottom: 10px;
+}
+
+.setumei p {
+    font-size: 18px; /* フォントサイズを大きく */
+    line-height: 1.6;
+}
+
+.syurui, .twopla ,.channel{
+    margin-top: 20px;
+}
+
+.syurui h1, .twopla h1 {
+    font-size: 24px; /* フォントサイズを大きく */
+    
+    margin-bottom: 10px;
+}
+
+.haisin-container, .platform-container,.channel {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.haisin, .platform,.channel {
+    width: 45%;
+    padding: 20px; /* パディングを大きく */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #2E8B57;
+    transition: transform 0.3s ease;
+}
+
+.haisin:hover, .platform:hover {
+    transform: translateY(-5px);
+}
+
+.haisin h2, .platform h2 {
+    font-size: 20px; /* フォントサイズを大きく */
+    color: #2E8B57;
+    margin-bottom: 10px;
+}
+
+.haisin p, .platform p {
+    font-size: 16px; /* フォントサイズを大きく */
+
+}
+
+.twopla {
+    margin-top: 50px;
+}
